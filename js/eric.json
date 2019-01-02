@@ -1,0 +1,15 @@
+{
+    "project1":{ 
+        "name":"bowlingsim.com",
+        "website":"bowlingsim.com",
+        "image":"LINK_TO_IMAGE"
+    
+    },
+    "project2":{
+        "name":"Pokedex API",
+        "website":"NONE",
+        "image":"LINK_TO_IMAGE"
+    }
+
+
+}
