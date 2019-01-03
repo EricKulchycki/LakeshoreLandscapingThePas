@@ -25,14 +25,13 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/calc.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <script src="js/eric.js"></script>
-  <script src="js/nick.js"></script>
-  <script type="text/json" src="json/eric.json"></script>
+  <script src="js/calculator.js"></script>
 
   <!-- Menu -->
   <nav class="menu" id="theMenu">
@@ -42,8 +41,9 @@
       <a href="#home" class="smoothscroll">Home</a>
       <a href="#info" class="smoothscroll">Information</a>
       <a href="#services" class="smoothscroll">Services</a>
-      <a href="https://www.facebook.com/LakeshoreJill/"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/lakeshorethepas/"><i class="fa fa-instagram"></i></a>
+      <a href="calculator.html" class="smoothscroll">Calculator</a>
+      <a href="https://www.facebook.com/LakeshoreJill/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/lakeshorethepas/" target="_blank"><i class="fa fa-instagram"></i></a>
     </div>
 
     <!-- Menu button -->
@@ -60,6 +60,9 @@
       <img src="img/LakeshoreLogo.png">
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     </div>
@@ -86,7 +89,7 @@
   <div id="g">
     <div class="container">
       <div class="row">
-        <h2>Information</h2>
+        <h2>Contact Information</h2>
         <hr>
         <br>
         <!--Section for email. Do it in size 2 columns-->
@@ -210,6 +213,55 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <section id="calculator" name="calculator">
+    <div id="w">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6">
+              <h2>Cubic Yard (yd<sup>3</sup>) Calculator</h2>
+              <hr>
+              <br>
+            <form onsubmit="return calculate()">
+              <input type="text" id="height" name="height" placeholder="Please enter length in feet"><br>
+              <input type="text" id="width" name="width" placeholder="Please enter width in feet"><br>
+              <input type="text" id="depth" name="depth" placeholder="Please enter depth in feet"><br>
+              <input type="submit" id="submitButton" value="Calculate">
+              </form>
+
+              <br>
+              <br>
+
+              <div id="output">
+                <p style="-webkit-text-fill-color: white">Some Text</p>
+              </div>
+          </div>
+
+          <div class="col-lg-6">
+              <h2>Square Yard (yd<sup>2</sup>) Calculator</h2>
+              <hr>
+              <br>
+            <form onsubmit="return calculateSod()">
+                <input type="text" id="height2" name="height" placeholder="Please enter length in feet"><br>
+                <input type="text" id="width2" name="width" placeholder="Please enter width in feet"><br>
+                <input type="submit" id="submitButton" value="Calculate">
+                </form>
+  
+                <br>
+                <br>
+  
+                <div id="output2">
+                  <br>
+                </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
     </div>
   </section>
   
