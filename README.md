@@ -1,5 +1,9 @@
 # Website for Lakeshore Landscaping
 
+## Visit the site
+
+[Website Link](https://erickulchycki.github.io/LakeshoreLandscapingThePas/)
+
 ## Landscape Contractor, Supplies, Maintenance & Trucking
 
 Lakeshore Landscaping is a landscaping & trucking company run out of The Pas, Manitoba, Canada. This project is a website built
