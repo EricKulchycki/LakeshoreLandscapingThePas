@@ -7,7 +7,7 @@ function calculate() {
 
 
     if(!Number.isNaN(parseFloat(height)) && !Number.isNaN(parseFloat(width)) && !Number.isNaN(parseFloat(depth))) {
-        var valNeeded = (parseFloat(height) * parseFloat(width) * parseFloat(depth)) / 27;
+        var valNeeded = (parseFloat(height) * parseFloat(width) * (parseFloat(depth) / 12)) / 27;
 
         if(valNeeded < 1) {
             if(valNeeded <= .25) {
