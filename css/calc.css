@@ -1,19 +1,22 @@
 #height, #height2 {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     text-align: left;
 }
 
+#height::placeholder, #height2::placeholder, #width::placeholder, #width2::placeholder, #depth::placeholder {
+width: 100%}
+
 #width, #width2 {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     text-align: left;
 }
 
 #depth {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     text-align: left;
