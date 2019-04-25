@@ -28,7 +28,7 @@ function calculate() {
         document.getElementById('output').innerHTML = "<p> Please enter <b>valid</b> numbers into the fields above";
     }
     
-
+    
     return false;
 
 }

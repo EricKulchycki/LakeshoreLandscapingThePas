@@ -26,6 +26,20 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/calc.css" rel="stylesheet">
+<!--
+  <script type="text/javascript">
+    window.onload = function(){
+        /**
+         * Just Make sure to return false so that your request will not go the server script
+         */
+        document.getElementById('form').onsubmit = function(){
+            return false 
+        }
+        document.getElementById('form2').onsubmit = function(){
+            return false 
+        }
+    }
+</script>-->
 
 </head>
 
@@ -320,11 +334,12 @@
               <h2>Cubic Yard (yd<sup>3</sup>) Gravel Calculator</h2>
               <hr>
               <br>
-            <form onsubmit="return calculate()">
+            <form id="form" onsubmit="return false">
               <input type="text" id="height" name="height" placeholder="Please enter length in feet"><br>
               <input type="text" id="width" name="width" placeholder="Please enter width in feet"><br>
               <input type="text" id="depth" name="depth" placeholder="Please enter depth in inches"><br>
-              <input type="submit" id="submitButton" value="Calculate">
+              <!--<input type="submit" id="submitButton" value="Calculate">-->
+              <button type="submit" id="submitButton" id="submitButton" onclick="calculate()">Calculate</button>
               </form>
 
               <br>
@@ -339,10 +354,11 @@
               <h2>Square Yard (yd<sup>2</sup>) Sod Calculator</h2>
               <hr>
               <br>
-            <form onsubmit="return calculateSod()">
+            <form id="form2" onsubmit="return false">
                 <input type="text" id="height2" name="height" placeholder="Please enter length in feet"><br>
                 <input type="text" id="width2" name="width" placeholder="Please enter width in feet"><br>
-                <input type="submit" id="submitButton" value="Calculate">
+                <!--<input type="submit" id="submitButton" value="Calculate">-->
+                <button type="submit" id="submitButton" onclick="calculateSod()">Calculate</button>
                 </form>
   
                 <br>
