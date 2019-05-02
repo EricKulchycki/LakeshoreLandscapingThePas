@@ -591,6 +591,6 @@ img {
   max-height: 100%;
 }
 
-#paypal {
+#paypaltitle, #paypalform {
   text-align: center;
 }
